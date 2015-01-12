@@ -10,6 +10,7 @@ public class Client {
 	 * @author jianhua
 	 */
 	public static void main(String[] args) {
+		//111111111111
 		Factory catfactory = new CatFactory();
 		Cat  cat = (Cat) catfactory.createAnimal();
 		cat.eat();
